@@ -6,7 +6,7 @@
  */
 int _isalpha(int c)
 {
-	char ch1, ch2;
+	char ch1, ch2, ch3, ch4;
 
 	ch1 = 'a';
 	ch2 = 'z';
