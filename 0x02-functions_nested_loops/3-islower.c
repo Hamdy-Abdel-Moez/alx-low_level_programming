@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - Entry point, chech lowercase
+ * _islower - Entry point, check lowercase
  * @c: the character it receives
  * Return: 1 if true otherwise 0 if false
  */
