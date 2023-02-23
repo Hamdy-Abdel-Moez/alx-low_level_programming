@@ -6,12 +6,12 @@
  */
 int _islower(int c)
 {
-	char check, ch1, ch2;
+	char ch1, ch2;
 
 	ch1 = 'a';
 	ch2 = 'z';
 
-	if (check <= ch2 && check >= ch1)
+	if (c <= ch2 && c >= ch1)
 		return (1);
 	else
 		return (0);
