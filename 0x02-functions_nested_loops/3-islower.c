@@ -11,7 +11,7 @@ int _islower(int c)
 	ch1 = 'a';
 	ch2 = 'z';
 
-	if (check <= ch2 && c >= ch1)
+	if (check <= ch2 && check >= ch1)
 		return (1);
 	else
 		return (0);
